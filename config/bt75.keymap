@@ -6,14 +6,6 @@
 
 / {
     macros {
-        signature_cas: signature_cas {
-            compatible = "zmk,behavior-macro";
-            label = "signature_cas";
-            #binding-cells = <0>;
-            bindings = <&name_cas &kp RET &title_aag &kp RET &address_aag &kp RET &phone_aag &kp RET &email_aag>;
-            wait-ms = <40>;
-            tap-ms = <30>;
-        };
         name_cas: name_cas {
             compatible = "zmk,behavior-macro";
             label = "name_cas";
@@ -51,6 +43,14 @@
             label = "email_aag";
             #binding-cells = <0>;
             bindings = <&kp LS(C) &kp A &kp R &kp O &kp L &kp I &kp N &kp E &kp DOT &kp LS(S) &kp R &kp S &kp T &kp K &kp A &kp LS(N2) &kp S &kp T &kp A &kp T &kp E &kp DOT &kp S &kp D &kp DOT &kp U &kp S>;
+            wait-ms = <40>;
+            tap-ms = <30>;
+        };
+        signature_cas: signature_cas {
+            compatible = "zmk,behavior-macro";
+            label = "signature_cas";
+            #binding-cells = <0>;
+            bindings = <&name_cas &kp RET &title_aag &kp RET &address_aag &kp RET &phone_aag &kp RET &email_aag>;
             wait-ms = <40>;
             tap-ms = <30>;
         };
