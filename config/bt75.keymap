@@ -11,7 +11,7 @@
             label = "signature_cas";
             #binding-cells = <0>;
             bindings = <&kp LS(C) &kp A &kp R &kp O &kp L &kp I &kp N &kp E>;
-            wait-ms = <1>;
+            wait-ms = <30>;
         };
     };
 
