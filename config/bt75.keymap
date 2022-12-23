@@ -12,7 +12,7 @@
             #binding-cells = <0>;
             bindings = <&kp LS(C) &kp A &kp R &kp O &kp L &kp I &kp N &kp E &kp SPACE &kp LS(A) &kp DOT &kp SPACE &kp LS(S) &kp R &kp S &kp T &kp K &kp A>;
             wait-ms = <40>;
-            tap-ms = <1>;
+            tap-ms = <10>;
         };
         title_aag: title_aag {
             compatible = "zmk,behavior-macro";
@@ -20,7 +20,7 @@
             #binding-cells = <0>;
             bindings = <&kp RET &kp LS(A) &kp S &kp S &kp I &kp S &kp T &kp A &kp N &kp T &kp SPACE &kp LS(A) &kp T &kp T &kp O &kp R &kp N &kp E &kp Y &kp SPACE &kp LS(G) &kp E &kp N &kp E &kp R &kp A &kp L>;
             wait-ms = <40>;
-            tap-ms = <1>;
+            tap-ms = <10>;
         };
         address_aag: address_aag {
             compatible = "zmk,behavior-macro";
@@ -28,7 +28,7 @@
             #binding-cells = <0>;
             bindings = <&kp RET &kp N2 &kp N0 &kp N0 &kp N0 &kp SPACE &kp LS(E) &kp DOT &kp SPACE &kp N5 &kp 2 &kp N &kp D &kp SPACE &kp LS(S) &kp T &kp R &kp E &kp E &kp T &kp COMMA &kp SPACE &kp LS(N) &kp O &kp R &kp T &kp H &kp RET &kp LS(S) &kp I &kp O &kp U &kp X &kp SPACE &kp LS(F) &kp A &kp L &kp L &kp S &kp COMMA &kp SPACE &kp LS(S) &kp LS(D) &kp SPACE &kp N5 &kp N7 &kp N1 &kp N0 &kp N4>;
             wait-ms = <40>;
-            tap-ms = <1>;
+            tap-ms = <10>;
         };
         phone_aag: phone_aag {
             compatible = "zmk,behavior-macro";
@@ -36,7 +36,7 @@
             #binding-cells = <0>;
             bindings = <&kp RET &kp LS(T) &kp E &kp L &kp E &kp P &kp H &kp O &kp N &kp E &kp LS(SEMI) &kp SPACE &kp LS(N9) &kp N6 &kp N0 &kp N5 &kp LS(N0) &kp SPACE &kp N3 &kp N6 &kp N7 &kp MINUS &kp N5 &kp N8 &kp N8 &kp N0>;
             wait-ms = <40>;
-            tap-ms = <1>;
+            tap-ms = <10>;
         };
         email_aag: email_aag {
             compatible = "zmk,behavior-macro";
