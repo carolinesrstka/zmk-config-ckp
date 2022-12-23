@@ -10,7 +10,7 @@
             compatible = "zmk,behavior-macro";
             label = "signature_cas";
             #binding-cells = <0>;
-            bindings = <&kp S &kp I &kp G &kp N &kp A &kp T &kp U &kp R &kp E &kp LS(MINUS) &kp C &kp A &kp S>;
+            bindings = <&kp S &kp I &kp G &kp N &kp A &kp T &kp U &kp R &kp E &kp LS(MINUS) &kp C &kp A &kp S &kp RET>;
             wait-ms = <40>;
             tap-ms = <1>;
         };
