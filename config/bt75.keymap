@@ -50,15 +50,7 @@
             compatible = "zmk,behavior-macro";
             label = "signature_cas";
             #binding-cells = <0>;
-            bindings = <&name_cas &title_aag>;
-            wait-ms = <40>;
-            tap-ms = <1>;
-        };
-        office_addr: office_addr {
-            compatible = "zmk,behavior-macro";
-            label = "office_addr";
-            #binding-cells = <0>;
-            bindings = <&address_aag &phone_aag &email_aag>;
+            bindings = <&kp S &kp I &kp G &kp N &kp A &kp T &kp U &kp R &kp E &kp LS(MINUS) &kp C &kp A &kp S>;
             wait-ms = <40>;
             tap-ms = <1>;
         };
