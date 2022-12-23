@@ -5,6 +5,15 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
+    macros {
+        signature: signature {
+            compatible = "zmk,behavior-macro";
+            label = "new_macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(C) &kp A>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
