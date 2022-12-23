@@ -10,7 +10,7 @@
             compatible = "zmk,behavior-macro";
             label = "signature_cas";
             #binding-cells = <0>;
-            bindings = <&kp LS(C) &kp A &kp R &kp O &kp L &kp I &kp N &kp E>;
+            bindings = <&kp LS(C) &kp A &kp R &kp O &kp L &kp I &kp N &kp E &kp SPACE &kp LS(A) &kp DOT &kp SPACE &kp LS(S) &kp R &kp S &kp T &kp K &kp A &kp RET &kp LS(A) &kp S &kp S &kp I &kp S &kp T &kp A &kp N &kp T &kp SPACE &kp LS(A) &kp T &kp T &kp O &kp R &kp N &kp E &kp Y &kp SPACE &kp LS(G) &kp E &kp N &kp E &kp R &kp A &kp L &kp RET &kp N2 &kp N0 &kp N0 &kp N0 &kp SPACE &kp LS(E) &kp SPACE &kp N5 &kp N2 &kp N &kp D &kp SPACE &kp LS(S) &kp t &kp r &kp e &kp e &kp t &kp COMMA &kp SPACE &kp LS(N) &kp O &kp R &kp T &kp H &kp RET &kp LS(S) &kp I &kp O &kp U &kp X &kp SPACE &kp LS(F) &kp A &kp L &kp L &kp S &kp COMMA &kp SPACE &kp LS(S) &kp LS(D) &kp SPACE &kp N5 &kp N7 &kp N1 &kp N0 &kp N4>;
             wait-ms = <30>;
         };
     };
