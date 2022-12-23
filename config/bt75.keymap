@@ -6,7 +6,7 @@
 
 / {
     macros {
-        signature: signature {
+        signature_cas: signature_cas {
             compatible = "zmk,behavior-macro";
             label = "signature_cas";
             #binding-cells = <0>;
